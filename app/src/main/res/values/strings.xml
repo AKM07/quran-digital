@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Quran Digital</string>
+
+
+    //default_labels
+    <string name="label_save">Simpan</string>
+    <string name="label_next">Lanjutkan</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Batal</string>
+    <string name="label_yes">Ya</string>
+    <string name="label_no">Tidak</string>
+    <string name="label_close">Tutup</string>
+    <string name="label_register_button">Daftar</string>
+
+    //default_tittle
+    <string name="title_warning">Peringatan</string>
+    <string name="title_success">Sukses</string>
+    <string name="title_wait">Mohon Tunggu…</string>
+    <string name="title_loading">Memuat Data…</string>
+    <string name="title_notification">Pemberitahuan</string>
+
+    //main
+    <string name="label_failed_load_data">Gagal Memuat Data</string>
+
+    //read-quran
+    <string name="label_basmallah_arabic">بِسْمِ اللَّهِ الرَّحْمَنِ</string>
+
 </resources>

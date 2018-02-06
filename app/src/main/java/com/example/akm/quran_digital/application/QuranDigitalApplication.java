@@ -57,8 +57,12 @@ public class QuranDigitalApplication extends Application implements HasActivityI
         Realm.setDefaultConfiguration(configuration);
     }
 
+    public static QuranDigitalApplication getInstance() {
+        return instance;
+    }
+
     @Override
     public AndroidInjector<Activity> activityInjector() {
-        return null;
+        return activityDispatchingAndroidInjector;
     }
 }
